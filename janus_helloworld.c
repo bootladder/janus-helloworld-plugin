@@ -104,6 +104,7 @@ void janus_helloworld_create_session(janus_plugin_session *handle, int *error) {
 }
 
 void janus_helloworld_destroy_session(janus_plugin_session *handle, int *error) {
+	janus_refcount_decrease(&handle->ref);
 	JANUS_LOG(LOG_INFO, "Session destroyed.\n");
 }
 
