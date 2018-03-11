@@ -1,4 +1,4 @@
-AC_INIT([janus-helloworld-plugin], [1.0], [marshall@quander.me])
+AC_INIT([janus-steve-plugin], [1.0], [marshall@quander.me])
 AM_INIT_AUTOMAKE([foreign])
 AC_ENABLE_SHARED(yes)
 AC_CONFIG_MACRO_DIR([m4])
