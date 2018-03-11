@@ -243,7 +243,7 @@
  * \ref plugins
  */
 
-#include "plugin.h"
+#include "plugins/plugin.h"
 
 #include <dirent.h>
 #include <arpa/inet.h>
@@ -251,15 +251,15 @@
 #include <sys/time.h>
 #include <jansson.h>
 
-#include "../debug.h"
-#include "../apierror.h"
-#include "../config.h"
-#include "../mutex.h"
-#include "../record.h"
-#include "../sdp-utils.h"
-#include "../rtp.h"
-#include "../rtcp.h"
-#include "../utils.h"
+#include "debug.h"
+#include "apierror.h"
+#include "config.h"
+#include "mutex.h"
+#include "record.h"
+#include "sdp-utils.h"
+#include "rtp.h"
+#include "rtcp.h"
+#include "utils.h"
 
 
 /* Plugin information */
